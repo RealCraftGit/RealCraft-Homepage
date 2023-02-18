@@ -34,9 +34,9 @@
             <div id="navlist">
                 <ul class="navsort">
                     <li><i class="fa-regular fa-house"></i>Home</li>
-                    <li><i class="fa-regular fa-people-group">Team</li>
+                    <li><i class="fa-regular fa-people-group"></i>Team</li>
                     <li><i class="fa-regular fa-user"></i>Login</li>
-                    <li></i><i class="fa-regular fa-headset"></i>Support</li>
+                    <li><i class="fa-regular fa-headset"></i>Support</li>
                     <li><i class="fa-regular fa-server"></i>Hosting</li>
                     <li><a href="mailto:support@realcraft.lu" title="Support"><i class="fa-regular fa-envelope"></i></a></li>
                 </ul>
