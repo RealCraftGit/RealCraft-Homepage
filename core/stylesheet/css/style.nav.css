@@ -1,0 +1,56 @@
+/*
+Implements:
+==>Navbar
+*/
+#navbar-main {
+    background-color: #55d6aa;
+    width: 101%;
+    height: 80px;
+    margin: -10px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navlist {
+    width: 500px;
+    height: 50px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+ul {
+ background-color: white;
+}
+
+li {
+    float: left;
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+li:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

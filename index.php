@@ -8,6 +8,7 @@
 
     <!--styles-->
     <link rel="stylesheet" href="core/stylesheet/css/style.main.css">
+    <link rel="stylesheet" href="core/stylesheet/css/style.nav.css">
     <link rel="stylesheet" href="core/Plugins/FontAwesome/css/all.min.css">
     <!--scripts-->
     <link rel="script" href="core/js/script.main.js">
