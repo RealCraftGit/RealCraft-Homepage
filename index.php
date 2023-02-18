@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="core/stylesheet/css/style.nav.css">
     <link rel="stylesheet" href="core/Plugins/FontAwesome/css/all.min.css">
     <!--scripts-->
-    <link rel="script" href="core/js/script.main.js">
     <!--font-familys-->
     <link rel="stylesheet" href="core/stylesheet/fonts/style.font-face.css">
 
@@ -67,26 +66,6 @@
 </section>
 </main>
 
-
-
-
-
-
-
-
-
-<script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "navbar") {
-            x.className += " responsive";
-        } else {
-            x.className = "navbar";
-        }
-    }
-
-</script>
-
-
+<script rel="script" href="core/js/script.main.js"> </script>
 </body>
 </html>
