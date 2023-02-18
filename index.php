@@ -30,7 +30,15 @@
 <header>
     <section id="navbar">
         <nav id="navbar-main">
-
+            <img src="core/img/image/rc%20logo/rc-textimage.png" width="260px" height="150px">
+            <div id="navlist">
+                <ul>
+                    <li>Support</li>
+                    <li>Login</li>
+                    <li>Team</li>
+                    <li>Home</li>
+                </ul>
+            </div>
         </nav>
     </section>
     <section id="header">
