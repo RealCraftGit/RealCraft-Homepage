@@ -1,10 +1,9 @@
 /*
 Implements:
 ==>Navbar
-Yes
 */
 #navbar-main {
-    background-color: #55d6aa;
+    background-color: #f1f1f1;
     width: 101%;
     height: 80px;
     margin: -10px;
@@ -12,23 +11,22 @@ Yes
     position: absolute;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid black;
 }
 
 #navlist {
-    width: 500px;
+    width: 700px;
     height: 50px;
     margin-right: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
 }
 
-ul {
- background-color: white;
+.navsort {
 }
 
-li {
+.navsort li {
     float: left;
     margin: 20px;
     text-decoration: none;
@@ -38,7 +36,11 @@ li {
     position: relative;
 }
 
-li::after {
+.navsort a,.navsort a:visited {
+    color: black;
+}
+
+.navsort li::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -46,12 +48,12 @@ li::after {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: black;
+    background-color: #000000;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
 
-li:hover::after {
+.navsort li:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }

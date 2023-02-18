@@ -32,11 +32,13 @@
         <nav id="navbar-main">
             <img src="core/img/image/rc%20logo/rc-textimage.png" width="260px" height="150px">
             <div id="navlist">
-                <ul>
-                    <li>Support</li>
-                    <li>Login</li>
-                    <li>Team</li>
-                    <li>Home</li>
+                <ul class="navsort">
+                    <li><i class="fa-regular fa-house"></i>Home</li>
+                    <li><i class="fa-regular fa-people-group">Team</li>
+                    <li><i class="fa-regular fa-user"></i>Login</li>
+                    <li></i><i class="fa-regular fa-headset"></i>Support</li>
+                    <li><i class="fa-regular fa-server"></i>Hosting</li>
+                    <li><a href="mailto:support@realcraft.lu" title="Support"><i class="fa-regular fa-envelope"></i></a></li>
                 </ul>
             </div>
         </nav>
