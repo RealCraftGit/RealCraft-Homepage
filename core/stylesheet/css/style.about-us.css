@@ -1,0 +1,44 @@
+/*
+    main styles implements
+        =>> about-us
+        =>>
+*/
+#about-us {
+
+}
+
+.us-section-header {
+
+}
+
+.profile-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-txt {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.profieele-image-label {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+
+    max-width: 100%;
+}
+
+.profile-lable {
+
+    bottom: -40px;
+    text-align: center;
+    font-size: 14px;
+}

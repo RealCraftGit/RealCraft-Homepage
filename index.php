@@ -7,10 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--styles-->
+    <link rel="stylesheet" href="core/stylesheet/css/style.about-us.css">
     <link rel="stylesheet" href="core/stylesheet/css/style.main.css">
-    <link rel="stylesheet" href="core/stylesheet/css/style.nav.css">
     <link rel="stylesheet" href="core/Plugins/FontAwesome/css/all.min.css">
     <!--scripts-->
+    <link rel="script" href="core/js/script.main.js">
     <!--font-familys-->
     <link rel="stylesheet" href="core/stylesheet/fonts/style.font-face.css">
 
@@ -30,15 +31,7 @@
 <header>
     <section id="navbar">
         <nav id="navbar-main">
-            <img src="core/img/image/rc%20logo/rc-textimage.png" width="260px" height="150px">
-            <div id="navlist">
-                <ul>
-                    <li>Support</li>
-                    <li>Login</li>
-                    <li>Team</li>
-                    <li>Home</li>
-                </ul>
-            </div>
+
         </nav>
     </section>
     <section id="header">
@@ -48,24 +41,51 @@
 <main>
 <section id="about-us">
     <div class="us-section-header">
-
-
     </div>
-    <div class="profile-0">
+        <div class="profile-div 0">
+            <div class="profile-txt 0">
+                <h1>Willkommen auf meiner Webseite</h1>
+                <p>Ich bin ein begeisterter Entwickler und liebe es, großartige Webseiten zu erstellen.</p>
+            </div>
+            <div class="profile-image-label 0">
+                    <img class="profile-image 0" src="core/img/image/team images/Daniel.jpg" alt="" width="300px">
+                    <p class="profile-lable 0">Ihr Label-Text hier</p>
+            </div>
+        </div>
+        <div class="profile-div 1">
+            <div class="profile-image-label 1">
+                <img class="profile-image 1" src="core/img/image/team images/Daniel.jpg" alt="" width="300px">
+                <p class="profile-lable 1">Ihr Label-Text hier</p>
+            </div>
+            <div class="profile-txt 1">
+                <h1>Willkommen auf meiner Webseite</h1>
+                <p>Ich bin ein begeisterter Entwickler und liebe es, großartige Webseiten zu erstellen.</p>
+            </div>
 
-
-    </div>
-    <div class="profile-0">
-
-
-    </div>
-    <div class="profile-0">
-
-
-    </div>
+        </div>
 </section>
 </main>
 
-<script rel="script" href="core/js/script.main.js"> </script>
+
+
+
+
+
+
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
+        }
+    }
+
+</script>
+
+
 </body>
 </html>
