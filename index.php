@@ -7,11 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--styles-->
-    <link rel="stylesheet" href="core/stylesheet/css/style.about-us.css">
     <link rel="stylesheet" href="core/stylesheet/css/style.main.css">
+    <link rel="stylesheet" href="core/stylesheet/css/style.nav.css">
     <link rel="stylesheet" href="core/Plugins/FontAwesome/css/all.min.css">
     <!--scripts-->
-    <link rel="script" href="core/js/script.main.js">
     <!--font-familys-->
     <link rel="stylesheet" href="core/stylesheet/fonts/style.font-face.css">
 
@@ -31,7 +30,17 @@
 <header>
     <section id="navbar">
         <nav id="navbar-main">
-
+            <img src="core/img/image/rc%20logo/rc-textimage.png" width="260px" height="150px">
+            <div id="navlist">
+                <ul class="navsort">
+                    <li><i class="fa-regular fa-house"></i>Home</li>
+                    <li><i class="fa-regular fa-people-group">Team</li>
+                    <li><i class="fa-regular fa-user"></i>Login</li>
+                    <li></i><i class="fa-regular fa-headset"></i>Support</li>
+                    <li><i class="fa-regular fa-server"></i>Hosting</li>
+                    <li><a href="mailto:support@realcraft.lu" title="Support"><i class="fa-regular fa-envelope"></i></a></li>
+                </ul>
+            </div>
         </nav>
     </section>
     <section id="header">
@@ -41,6 +50,8 @@
 <main>
 <section id="about-us">
     <div class="us-section-header">
+
+
     </div>
         <div class="profile-div 0">
             <div class="profile-txt 0">
@@ -66,25 +77,6 @@
 </section>
 </main>
 
-
-
-
-
-
-
-
-<script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "navbar") {
-            x.className += " responsive";
-        } else {
-            x.className = "navbar";
-        }
-    }
-
-</script>
-
-
+<script rel="script" href="core/js/script.main.js"> </script>
 </body>
 </html>
