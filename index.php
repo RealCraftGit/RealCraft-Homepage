@@ -23,7 +23,7 @@
 
 
 
-    <title>Title</title>
+    <title>Welcome to RealCraft</title>
 </head>
 <body>
 
