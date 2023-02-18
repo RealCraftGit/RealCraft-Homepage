@@ -28,10 +28,15 @@
 <body>
 
 <header>
+    <section id="navbar">
 
+    </section>
+    <section id="header">
+
+    </section>
 </header>
 <main>
-<section id="About-Us">
+<section id="about-us">
     <div class="us-section-header">
 
 
