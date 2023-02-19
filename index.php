@@ -67,15 +67,30 @@
         </div>
         <div class="profile-div one">
             <div class="profile-image-label one">
-                <img class="profile-image one" src="core/img/image/team images/Daniel.jpg" alt="" width="300px">
+                <img class="profile-image one" src="core/img/image/team images/Tim%20Placeholder.jpg" alt="" width="300px" height="300px">
                 <p class="profile-lable one">Ihr Label-Text hier</p>
             </div>
             <div class="profile-txt one">
-                <h1>Willkommen auf meiner Webseite</h1>
-                <p>Ich bin ein begeisterter Entwickler und liebe es, großartige Webseiten zu erstellen.</p>
+
+                <p>Hey, mein Name ist Tim, ich bin Siebzehn Jahre alt und bin aktuell Schüler an einer Berufsschule. Bei RealCraft bin ich als Front-End Developer tätig.
+                    Als dieser sorge ich stets dafür das ihre Website technisch genauso aussieht wie sie es sich wünschen und vorstellen. Außerdem helfe ich ihnen
+                    wünschen. Gerne professionell dabei ihnen bei ihren Problemen zu helfen und diese auf die beste
+                    mögliche Art zu bearbeiten. Über die Zusammenarbeit mit ihnen würde mich sehr erfreuen.</p>
             </div>
         </div>
+        <div style="padding-top: 20px;">
+            <div class="profile-div zero">
+                <div class="profile-txt zero">
+                    <h1>Willkommen auf meiner Webseite</h1>
+                    <p>Ich bin ein begeisterter Entwickler und liebe es, großartige Webseiten zu erstellen.</p>
+                </div>
+                <div class="profile-image-label zero">
+                    <img class="profile-image zero" src="core/img/image/team images/Malon.png" alt="" width="300px">
+                    <p class="profile-lable zero">Ihr Label-Text hier</p>
+                </div>
+            </div>
     </div>
+
 </section>
 </main>
 
